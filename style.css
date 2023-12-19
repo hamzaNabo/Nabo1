@@ -1,0 +1,33 @@
+.prog {
+    WIDTH: 50%;
+    MARGIN: 1% AUTO;
+}
+.img {
+    width: 24%;
+    margin: auto;
+}
+.img img {
+    width: 100%;
+    border-radius: 15px;
+}
+.logo {
+    /* margin: auto; */
+    /* display: block; */
+    text-align: center;
+}
+.about {
+    direction: rtl;
+    position: relative;
+}
+.about .img {
+    width: 60%;
+}
+@media (max-width: 500px) {
+    .about .img {
+        width: 100%;
+    }
+    .about {
+        font-size: 14px;
+    }
+    
+}
